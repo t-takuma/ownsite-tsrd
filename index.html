@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <!-- タイトル -->
+    <title>TAKUMA tsuruda</title>
+
+    <!-- エンコード 設定 -->
+    <meta charset="utf-8">
+
+    <!-- IEで常に標準モードで表示させる -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- CSS 読み込み -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style_slideToggle.css">
+
+    <!-- FontAwesome 読み込み -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <!-- jQuery 読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- slick 読み込み -->
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script src="js/slick/slick.min.js"></script>
+
+    <!-- lightbox 読み込み -->
+    <link rel="stylesheet" href="js/lightbox/css/lightbox.min.css">
+    <script src="js/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Viewport 設定 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+<!-- ラッパー -->
+<div id="wrapper">
+
+    <!-- ヘッダー -->
+    <header>    
+        <!-- ヘッダーボタン -->
+        <a class="header_button" href="#top">
+            <img src="img/header3.jpg" alt="tsuru's portfolio">
+            <div>    
+                <h1 class="site_text">portfolio</h1>
+                <h2 class="site_title"><span class="span_color">T</span>AKUMA tsuruda</h2>
+            </div>
+        </a>
+         <!-- /ヘッダーボタン -->
+        
+         <!-- ヘッダーメニュー -->
+        <div class="header_menu">
+            <!-- ハンバーガーメニューボタン -->
+            <ul class="hamb">
+                <li class="hamb_border"></li>
+                <li class="hamb_border"></li>
+                <li class="hamb_border"></li>
+            </ul>
+            <!-- /ハンバーガーメニューボタン -->
+            
+            <!-- ナビゲーションメニュー -->
+            <nav>    
+                <ul class="nav_menu open">
+                    <li><a href="#top" class="menu_button _top">Top</a><span class="span_line"></span></li>
+                    <li><a href="#profile" class="menu_button _profile">Profile</a><span class="span_line"></span></li>
+                    <li><a href="#service" class="menu_button _service">Service</a><span class="span_line"></span></li>
+                    <li><a href="#favorite" class="menu_button _favorite">Favorite</a><span class="span_line"></span></li>
+                    <li><a href="#contact" class="menu_button _contact">Contact</a><span class="span_line"></span></li>
+                </ul>
+            </nav>
+            <!-- /ナビゲーションメニュー -->
+
+        </div>
+        <!-- /ヘッダーメニュー -->
+
+    </header>
+    <!-- /ヘッダー -->
+    
+    <!-- メイン -->
+    <main>
+
+        <!-- フェードレイヤー -->
+        <div class="darkLayer"></div>
+        <!-- /フェードレイヤー -->
+
+        <!-- メインビジュアル -->
+        <ul id="top" class="slider">
+            <li><img class="main_visual" src="img/top8.jpg" alt="メインビジュアル１"></li>
+            <li><img class="main_visual" src="img/top9.jpg" alt="メインビジュアル２"></li>
+            <li><img class="main_visual" src="img/top10.jpg" alt="メインビジュアル３"></li>
+        </ul>
+        <!-- /メインビジュアル -->
+
+        <!-- プロフィール -->
+        <section id="profile" class="scroll-fade">
+            <h3 class="section_title">Profi<span class="span_color">l</span>e</h3>
+            <h4 class="section_text">プロフィール</h4>
+            <div class="container">
+                <div class="profile_contents scroll-fade">
+                    <div class="profile_visual"><img class="profile_img" src="img/about2.jpg" alt="雪山の透き通った景色"></div>
+                    <div class="profile_message">
+                        <h5 class="profile_subtitle">ー　こんにちは　ー</h5>
+                        <p class="profile_text">はじめまして。<br>ツルダタクマと申します。</p>
+                        <p class="profile_text">小学校〜高校までは地元山梨で過ごし、大学進学と同時に上京して参りました。</p>
+                        <p class="profile_text">プログラミング自体は3年前より独学で始めました。最初は、研究活動にて解析を簡易的に行うためperl言語を扱っていましたが、その後「web開発も行なってみたい」「ものづくりをしてみたい」と思い、HTML/CSSの門をくぐりました。</p>
+                        <p class="profile_text">趣味は、漫画・旅行・スノーボード・ギター・イラスト・お酒です</p>
+                        <i class="fas fa-plane-departure"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /プロフィール -->
+
+        <!-- サービス -->
+        <section id="service" class="scroll-fade">
+            <h3 class="section_title"><span class="span_color">I</span>ntroduction</h3>
+            <h4 class="section_text">自己紹介</h4>
+            <div class="container">
+                <div class="service_contents">
+                        <dl class="scroll-fade">
+                            <dt><i class="fas fa-mountain"></i></dt>
+                            <dd>
+                                <h5 class="service_subtitle">From<br>Yamanashi.</h5>
+                                <p class="service_text">山梨県の山梨市という地で生まれました。</p>
+                                <p class="service_text">今は上京して5年が経ちますが、<br>時間の流れはまるで東京の10分の１…</p>
+                                <p class="service_text">実家はブドウ農家。毎年紫に輝くブドウ園を眺めながら育ちました。</p>
+                            </dd>
+                        </dl>
+                        <dl class="scroll-fade">
+                            <dt><i class="fas fa-futbol"></i></dt>
+                            <dd>
+                                <h5 class="service_subtitle">Play<br>Hand ball.</h5>
+                                <p class="service_text">小学校6年から高校３年に至るまで約7年間、ハンドボールを行なっておりました。中学時代、怒られすぎてこたつで1人泣いていたのは今は良き思い出としての財産です。</p>
+                                <p class="service_text">高校時代は主将も経験させていただきました。</p>
+                            </dd>
+                        </dl>
+                        <dl class="scroll-fade">
+                            <dt><i class="fas fa-school"></i></dt>
+                            <dd>
+                                <h5 class="service_subtitle">Have<br>Teacher lisense.</h5>
+                                <p class="service_text">大学では教員養成系の単科大学に進学し、小・中・高（理科）の免許を取得しました。</p>
+                                <p class="service_text">理科専攻・物理学分野であったため、研究活動では地震と津波に関する『 最大初期津波高と津波電離圏ホール発生時における電離圏全電子数減少率の関係について 』という研究を行いました。</p>
+                            </dd>
+                        </dl>
+                        <dl class="scroll-fade">
+                            <dt><i class="fas fa-palette"></i></dt>
+                            <dd>
+                                <h5 class="service_subtitle">Draw<br>Painting.</h5>
+                                <p class="service_text">暇さえあれば絵ばかり描いている少年でした。２つ上の姉と絵の勝負だと言って、チラシの裏にはいつも絵ばかりでした。お陰で今も時間があればイラストを描き溜めています。</p>
+                            </dd>
+                        </dl>
+                 </div>
+            </div>
+        </section>
+        <!-- /サービス -->
+
+        <!-- フェイバリット -->
+        <section id="favorite" class="scroll-fade">
+            <h3 class="section_title">Fa<span class="span_color">v</span>orite<span class="color"></span></h3>
+            <h4 class="section_text">お気に入りのシーン</h4>
+            <div class="container">
+                <ul class="fav_contents">
+                    <li class="fav_item">
+                        <a class="fav_visual scroll-left" href="js/lightbox/images/favorite1.jpg" data-lightbox="group">
+                            <img class="fav_img" src="img/favorite1.jpg" alt="フィジーの浜辺">
+                            <p class="fav_img_text">Fiji</p>
+                        </a>
+                        <div class="fav_message scroll-right">
+                            <h5 class="fav_subtitle">Fijiの浜辺</h5>
+                            <p class="fav_text">Fijiという国での２ヶ月間滞在の間、島へ遊びに出かけた際の浜辺での一枚です。どこまでも澄み渡っていて、時間を忘れるようでした。</p>
+                        </div>
+                    </li>
+                    <li class="fav_item">
+                        <div class="fav_message scroll-left">
+                            <h5 class="fav_subtitle">賑やか海上居酒屋『Prown Star』</h5>
+                            <p class="fav_text">Cairnsへ友人と遊びに旅行に行った際、海岸に船型Barがあり、ふらっと立ち寄り美味しい海の幸をいただきました。その外観の一枚です。</p>
+                        </div>
+                        <a class="fav_visual scroll-right" href="js/lightbox/images/favorite2.jpg" data-lightbox="group">
+                            <img class="fav_img" src="img/favorite2.jpg" alt="Prown Star">
+                            <p class="fav_img_text">Cairns</p>
+                        </a>
+                    </li>
+                    <li class="fav_item">
+                        <a class="fav_visual scroll-left" href="js/lightbox/images/favorite3.jpg" data-lightbox="group">
+                            <img class="fav_img" src="img/favorite3.jpg" alt="シドニーの街並み">
+                            <p class="fav_img_text">Sydney</p>
+                        </a>
+                        <div class="fav_message scroll-right">
+                            <h5 class="fav_subtitle">初めての海外の街</h5>
+                            <p class="fav_text">生まれて初めて海外へ行った19歳。1人で飛び込んでいくのは不安だったのですが、開放感あふれる街並みに触れた瞬間、ワクワクが止まりませんでした。</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- /フェイバリット -->
+
+        <!-- コンタクト -->
+        <section id="contact" class="scroll-fade">
+            <h3 class="section_title">Cont<span class="span_color">a</span>ct</h3>
+            <h4 class="section_text">お問い合わせ</h4>
+            <div class="container">
+                <form class="contact_contents scroll-fade">
+                    <label>お名前</label><input type="text">
+                    <label>フリガナ</label><input type="text">
+                    <label>メールアドレス</label><input type="text">
+                    <label>お問い合わせ内容</label><textarea></textarea>
+                    <button type="submit">送信</button>
+                </form>
+            </div>
+        </section>
+        <!-- /コンタクト -->
+
+    </main>
+    <!-- /メイン -->
+
+    <!-- フッター -->
+    <footer>
+        <small><p class="copyright">COPYRIGHT&copy; 2020 Tsuruda Takuma ALL RIGHTS RESERVED.</p></small>
+    </footer>
+    <!-- /フッター -->
+
+</div>
+<!-- /ラッパー -->
+
+<!-- JavaScript 読み込み -->
+<script src="js/script_slideToggle.js"></script>
+
+<!-- slick 読み込み -->
+
+
+<!-- lightbox 読み込み -->
+
+
+</body>
+
+</html>
